@@ -1,1 +1,0 @@
-FROM resin/rpi-nodejs
