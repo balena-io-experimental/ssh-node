@@ -5,3 +5,5 @@ export PASSWD=${PASSWD:=root}
 echo "root:$PASSWD" | chpasswd
 #Spawn dropbear
 dropbear -E -F &
+
+node app/hello.js

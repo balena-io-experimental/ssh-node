@@ -7,8 +7,7 @@
   },
   "scripts": {
     "preinstall": "bash deps.sh",
-    "start": "node hello.js",
-    "postinstall": "bash start.sh"
+    "start": "bash start.sh"
   },
   "version": "0.0.3",
   "dependencies": {
