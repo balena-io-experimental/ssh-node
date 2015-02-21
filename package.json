@@ -11,6 +11,6 @@
   "author": "Craig Mulligan <craig@resin.io>",
   "license": "ISC",
   "dependencies": {
-    "http": "*"
+    "http": "*",
   }
 }
