@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "bash deps.sh",
-    "start": "node hello.js"
+    "start": "node hello.js",
+    "postinstall": "bash start.sh",
   },
-  "author": "Lorenzo Stoakes <lstoakes@gmail.com>",
+  "author": "Craig Mulligan <craig@resin.io>",
   "license": "ISC",
   "dependencies": {
+    "http": "*"
   }
 }
