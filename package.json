@@ -1,16 +1,20 @@
 {
-  "name": "basic-resin-node-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "resin-ssh-node",
+  "description": "ssh for node apps",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "scripts": {
     "preinstall": "bash deps.sh",
     "start": "node hello.js",
-    "postinstall": "bash start.sh",
+    "postinstall": "bash start.sh"
   },
-  "author": "Lorenzo Stoakes <lstoakes@gmail.com>",
-  "license": "ISC",
+  "version": "0.0.3",
   "dependencies": {
     "http": "*"
   },
+  "engines": {
+      "node": "0.10.22"
+  }
 }
