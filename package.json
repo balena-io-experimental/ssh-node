@@ -8,9 +8,9 @@
     "start": "node hello.js",
     "postinstall": "bash start.sh",
   },
-  "author": "Craig Mulligan <craig@resin.io>",
+  "author": "Lorenzo Stoakes <lstoakes@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "http": "*",
-  }
+    "http": "*"
+  },
 }
