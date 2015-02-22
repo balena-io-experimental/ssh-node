@@ -6,4 +6,4 @@ echo "root:$PASSWD" | chpasswd
 #Spawn dropbear
 dropbear -E -F &
 
-node app/hello.js
+node hello.js
