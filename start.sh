@@ -6,4 +6,5 @@ echo "root:$PASSWD" | chpasswd
 #Spawn dropbear
 dropbear -E -F &
 
+#start server and other scripts.
 node hello.js
