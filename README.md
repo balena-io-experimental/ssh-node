@@ -11,14 +11,21 @@ Add an environment variable called PASSWD with the value to set as root password
 
 ![alt text](https://github.com/craig-mulligan/resin-ssh-node/blob/master/img/envar.png "creating envar")
 
-Then run this and your in!
+Then run
 
 ```sh
 $ @root<YOUR-PI'S-IP>
 ```
 
+The code you just pushed is kept in the app directory.
+
+```sh
+$ cd /app
+```
+
 
 At after pushing you may encounter and re-sshing back into the device you may encounter this error message as the host key changes when an update occurs on the device.
+
 
 ```sh
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
