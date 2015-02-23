@@ -11,7 +11,7 @@ Add an environment variable called PASSWD with the value to set as root password
 
 ![alt text](https://github.com/craig-mulligan/resin-ssh-node/blob/master/img/envar.png "creating envar")
 
-Then run
+Get your device's IP address from the resin dashboard. Then run
 
 ```sh
 $ @root<YOUR-PI'S-IP>
