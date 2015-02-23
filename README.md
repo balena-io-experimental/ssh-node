@@ -5,11 +5,11 @@ This is a node.js port of the [resin-ssh](https://github.com/shaunmulligan/resin
 
 NOTE: This container enables SSH access as root with a PASSWORD stored in plain text - Do not use in production without modifications.
 
-#### To get ssh'in into you pi. 
+#### SSH into you're pi. 
 
 Add an environment variable called PASSWD with the value to set as root password.
 
-[logo]: https://github.com/craig-mulligan/resin-ssh-node/blob/master/img/envar.png "creating envar"
+![alt text](https://github.com/craig-mulligan/resin-ssh-node/blob/master/img/envar.png "creating envar")
 
 Then run this and your in!
 
@@ -35,7 +35,7 @@ To get around this remove the key.
 $ ssh-keygen -R <YOUR-PI'S-IP>
 ```
 
-And then it will work as expected. 
+It will then work as expected
 
 ```sh
 $ @root<YOUR-PI'S-IP>
