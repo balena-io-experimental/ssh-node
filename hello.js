@@ -7,4 +7,4 @@ http.createServer(function (request, response) {
         'Access-Control-Allow-Origin' : '*'
     });
     response.end('Hello World\n');
-}).listen(8080);
+}).listen(80);

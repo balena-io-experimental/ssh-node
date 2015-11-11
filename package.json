@@ -3,11 +3,13 @@
   "description": "ssh for node apps",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/resin-io-projects/ssh-node.git"
   },
+  "main": "hello.js",
   "scripts": {
     "preinstall": "bash deps.sh",
-    "start": "bash start.sh && node hello.js"
+    "prestart": "bash start.sh",
+    "start": "node hello.js"
   },
   "version": "0.0.3",
   "dependencies": {

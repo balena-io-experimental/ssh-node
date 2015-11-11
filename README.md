@@ -1,11 +1,11 @@
 resin-ssh
 =========
 
-This is a node.js port of the [resin-ssh](https://github.com/shaunmulligan/resin-ssh). It's essentially a resin container that runs dropbear on boot which allows for ssh access. 
+This is a node.js port of the [resin-ssh-python](https://github.com/resin-io-projects/resin-ssh-python). It's essentially a resin container that runs dropbear on boot which allows for ssh access. 
 
 NOTE: This container enables SSH access as root with a PASSWORD stored in plain text - Do not use in production without modifications.
 
-#### SSH into you're pi. 
+#### SSH into you're device. 
 
 Add an environment variable called PASSWD with the value to set as root password.
 
@@ -14,13 +14,13 @@ Add an environment variable called PASSWD with the value to set as root password
 Get your device's IP address from the resin dashboard. Then run
 
 ```sh
-$ ssh root@<YOUR-PI'S-IP>
+$ ssh root@<YOUR-DEVICE'S-IP>
 ```
 
 The code you just pushed is kept in the app directory.
 
 ```sh
-$ cd /app
+$ cd /usr/src/app
 ```
 
 
@@ -39,11 +39,11 @@ It is also possible that a host key has just been changed.
 To get around this remove the key.
 
 ```sh
-$ ssh-keygen -R <YOUR-PI'S-IP>
+$ ssh-keygen -R <YOUR-DEVICE'S-IP>
 ```
 
 It will then work as expected
 
 ```sh
-$ ssh root@<YOUR-PI'S-IP>
+$ ssh root@<YOUR-DEVICE'S-IP>
 ```
