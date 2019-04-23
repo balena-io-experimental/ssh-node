@@ -1,7 +1,7 @@
-resin-ssh
+balena-ssh
 =========
 
-This is a node.js port of the [resin-ssh-python](https://github.com/resin-io-projects/resin-ssh-python). It's essentially a resin container that runs dropbear on boot which allows for ssh access. 
+This is a node.js port of the [balena-ssh-python](https://github.com/balena-io-playground/balena-ssh-python). It's essentially a balena container that runs dropbear on boot which allows for ssh access.
 
 NOTE: This container enables SSH access as root with a PASSWORD stored in plain text - Do not use in production without modifications.
 
@@ -9,9 +9,9 @@ NOTE: This container enables SSH access as root with a PASSWORD stored in plain 
 
 Add an environment variable called PASSWD with the value to set as root password.
 
-![alt text](https://github.com/craig-mulligan/resin-ssh-node/blob/master/img/envar.png "creating envar")
+![creating envar](https://github.com/balena-io-playground/balena-ssh-python/blob/master/img/env.png?raw=true)
 
-Get your device's IP address from the resin dashboard. Then run
+Get your device's IP address from the balena dashboard. Then run
 
 ```sh
 $ ssh root@<YOUR-DEVICE'S-IP>
